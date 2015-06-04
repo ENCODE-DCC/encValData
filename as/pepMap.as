@@ -9,7 +9,7 @@ uint    score;          "Raw score scaled to a score of 0 (worst) to 1000 (best)
 char[1] strand;         "+ or - for strand"
 uint    thickStart;     "Start position in chromosome (same as chromStart)"
 uint    thickEnd;               "End position in chromosome (same as chromEnd)"
-string  itemRgb;                "Color set to 0 for black"
+uint    reserved;                "Color set to 0 for black"
 uint    blockCount; "The number of blocks for a peptide mapped to the genome - peptides spanning splice junctions will have more than 1 block"
 string  blockSizes; "Size of peptide block"
 string  blockStarts; "Start position of peptide block"
