@@ -1,4 +1,4 @@
-table idr_peaks
+table idr_peak
 "IDR peaks. Browser extensible data BED6+8."
     (
     string  chrom;           "Reference sequence chromosome (or contig, scaffold, etc.)"
